@@ -18,7 +18,7 @@ void loop() {
   Serial.println("Hello world!");
   toggle = toggle_state(toggle); 
   digitalWrite(PIN_LED, toggle); 
-  delay(1000);  // 1초 대기
+  delay(1000);  
 }
 
 boolean toggle_state(boolean toggle) {
