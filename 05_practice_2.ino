@@ -7,7 +7,7 @@ void setup() {
 void loop() {
   
   digitalWrite(ledPin, HIGH);  
-  delay(1000);  // 1초 대기
+  delay(1000);  
   
   
   for (int i = 0; i < 5; i++) {
