@@ -10,7 +10,7 @@ void loop() {
   delay(1000);  
   
   
-  for (int i = 0; i < 5; i++) {
+  for (int i = 0; i < 6; i++) {
     digitalWrite(ledPin, LOW);   
     delay(100);                  
     digitalWrite(ledPin, HIGH);  
