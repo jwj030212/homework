@@ -60,7 +60,7 @@ void loop() {
 // calculate LED brightness based on distance (100mm ~ 300mm)
 int calculateBrightness(float distance) {
   if (distance <= 100) {
-    // 100mm 이하는 밝기 255 (LED OFF)
+  
     return 255;
   } else if (distance <= 200) {
    
